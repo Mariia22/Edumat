@@ -9,8 +9,11 @@ const GlobalStyle = createGlobalStyle`
 `
 export const theme = {
     colors: {
-        primary: 'white',
-        secondary: 'black'
+        primary: 'grey',
+        secondary: 'red'
+    },
+    media: {
+        phone: "(max-width: 425px)"
     }
 }
 export default GlobalStyle
