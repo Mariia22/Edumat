@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   font-weight: 400;
   src: local('Metropolis'), local('Metropolis'),
   url(${MetropolisWoff2}) format('woff2'), 
-       url(${MetropolisWoff}) format('woff')
+  url(${MetropolisWoff}) format('woff')
 }
 
 *{
