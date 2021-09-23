@@ -24,7 +24,7 @@ export const theme = {
         backgroundColor: '#FFFFFF',
         fontColor: '#C1C1C1',
         darkestFontColor: '#7C7C7C',
-        headersColor: '#131330',
+        headerColor: '#131330',
         fieldColor: '#F4F4F4',
         iconColor: '#3671FE'
     },
