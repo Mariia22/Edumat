@@ -13,8 +13,8 @@ const Header = () => {
             <HeaderDiv>
                 <HeaderLogo src={Logo} alt='Logo company' />
                 <HeaderIconDiv >
-                    <Icon src={Search} alt='Search icon' width='15' height='15' />
-                    <Icon src={Overlap} alt='Overlap icon' />
+                    <Icon src={Search} alt='Search icon' width='15px' height='15px' />
+                    <Icon src={Overlap} alt='Overlap icon' marginLeft='22px' marginRight='17px' />
                     <Icon src={Notifications} alt='Notification icon' />
                 </HeaderIconDiv>
             </HeaderDiv>
