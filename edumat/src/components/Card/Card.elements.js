@@ -24,3 +24,11 @@ font-weight:500;
 font-size: 12px;
 line-height: 16px;
 color: ${props => props.color || props.theme.colors.fontColor};`
+
+export const CardIcon = styled.div`
+background-color: #F0F0F0;
+width: 25px;
+height: 3px;
+margin-top:16px;
+margin-bottom:16px;
+`
