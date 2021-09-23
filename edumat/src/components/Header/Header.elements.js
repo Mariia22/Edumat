@@ -12,8 +12,9 @@ width: 104px;
 height: 21px;
 `
 export const HeaderIconDiv = styled.div`
+width: 100%;
 display: flex;
-justify-content: space-between;
+justify-content: flex-end;
 align-items: center;
 `
 export const HeaderFilter = styled.div`
