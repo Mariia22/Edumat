@@ -4,6 +4,8 @@ import Input from './../Common/Input';
 import { DropdownStyle, MenuItem } from './../Common/Dropdown';
 import { Flex } from './../Common/Flex';
 import Button from '../Common/Button';
+import Card from '../Card/Card';
+import { cards } from './../../Mock'
 
 const Main = () => {
     const [isActive, setActive] = useState(true);
@@ -23,6 +25,9 @@ const Main = () => {
                     <Button filter>Wykonane</Button>
                 </Flex>
             </MainForm>
+            <Flex wrap='wrap'>
+                {cards.map(card => <Card {...card} />)}
+            </Flex>
         </MainWrapper>
     )
 }

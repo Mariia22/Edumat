@@ -20,7 +20,8 @@ ${props => props.filter && css`
     line-height: 16px;
     border-radius: 100px;
     margin-left: ${props => props.marginLeft};
-    margin-right: ${props => props.marginRight};    
+    margin-right: ${props => props.marginRight}; 
+    margin-bottom: 56px;   
 `};
 ${props => props.filterCourse && css`
       color: ${({ isFilter }) => isFilter ? '#131330' : '#C1C1C1'};
