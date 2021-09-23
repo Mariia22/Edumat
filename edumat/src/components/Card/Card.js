@@ -8,7 +8,7 @@ import Level from './../../images/Level.svg';
 
 const Card = ({ img, header, text, alt, id }) => {
     return (
-        <CardWrapper key={id}>
+        <CardWrapper>
             <Flex>
                 <CardImage src={img} alt={alt} />
                 <Flex direction='column' align='center' justify='center'>

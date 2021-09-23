@@ -16,17 +16,17 @@ const Main = () => {
                 <Flex>
                     <Input type='text' placeholder='Jakiego kursu szukasz?' search />
                     <DropdownStyle>
-                        <MenuItem selected='true' disabled>Poziom</MenuItem>
+                        <MenuItem selected={true} disabled>Poziom</MenuItem>
                     </DropdownStyle>
                 </Flex>
                 <Flex justify='flex-start'>
-                    <Button filter isActive={isActive}>Do zrobienia</Button>
-                    <Button filter marginLeft='10px ' marginRight='10px'>W trakcie</Button>
-                    <Button filter>Wykonane</Button>
+                    <Button filter='true' isActive={isActive}>Do zrobienia</Button>
+                    <Button filter='true' marginLeft='10px ' marginRight='10px'>W trakcie</Button>
+                    <Button filter='true'>Wykonane</Button>
                 </Flex>
             </MainForm>
             <Flex wrap='wrap'>
-                {cards.map(card => <Card {...card} />)}
+                {cards.map(card => <Card {...card} key={card.id} />)}
             </Flex>
         </MainWrapper>
     )

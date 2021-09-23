@@ -29,7 +29,7 @@ export const theme = {
         iconColor: '#3671FE'
     },
     media: {
-        phone: "(max-width: 425px)"
+        phone: "(max-width: 425px)",
     }
 }
 export default GlobalStyle
