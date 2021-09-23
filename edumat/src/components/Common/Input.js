@@ -7,10 +7,11 @@ width: ${props => props.width || '240px'};
 height: ${props => props.height || '48px'};
 background-color: ${props => props.theme.colors.fieldColor};
 border: none;
-padding: 16px;
+padding: 16px 45px 16px 16px;
 margin-bottom: 16px;
 border-radius:15px;
 font-size: 12px;
+outline: none;
 ::placeholder{
 color: ${props => props.color || props.theme.colors.darkestFontColor};
 }

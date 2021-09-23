@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const MainWrapper = styled.div`
 margin: 32px 24px;
 `
-
 export const MainHeader = styled.h1`
 font-weight: 600;
 font-size: 24px;
@@ -13,9 +12,5 @@ color: ${props => props.color || props.theme.colors.headerColor};
 `
 export const MainForm = styled.form`
 display: flex;
-`
-export const MainFormSearch = styled.div`
-width: 100%;
-display: flex;
-justify-content: space-between;
+flex-direction: column;
 `

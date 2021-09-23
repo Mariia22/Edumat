@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { HeaderDiv, HeaderLogo, HeaderIconDiv, HeaderFilter, HeaderFilterButton } from './Header.elements';
+import { HeaderDiv, HeaderLogo, HeaderIconDiv, HeaderFilter } from './Header.elements';
 import Search from './../../images/Search.png';
 import Logo from './../../images/Logo.png';
 import Notifications from './../../images/Notifications.svg';
 import Overlap from './../../images/Overlap.svg';
 import Icon from './../Common/Icon';
+import Button from './../Common/Button';
 
 const Header = () => {
-    const [isActive, setActive] = useState(true);
+    const [isFilter, setFilter] = useState(true);
     return (
         <>
             <HeaderDiv>
@@ -19,8 +20,8 @@ const Header = () => {
                 </HeaderIconDiv>
             </HeaderDiv>
             <HeaderFilter>
-                <HeaderFilterButton isActive={isActive}>Summary</HeaderFilterButton>
-                <HeaderFilterButton>Activity</HeaderFilterButton>
+                <Button filterCourse isFilter={isFilter}>Summary</Button>
+                <Button filterCourse>Activity</Button>
             </HeaderFilter>
         </>
     )

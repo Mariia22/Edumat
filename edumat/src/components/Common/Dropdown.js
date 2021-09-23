@@ -6,6 +6,7 @@ export const DropdownStyle = styled.select`
   line-height: 16px;
   font-weight: 400;
   padding: 13px 13px 13px 16px;
+  margin-bottom:16px;
   border: 2px solid #EFEFEF;
   width: 118px;
   height: 48px;
