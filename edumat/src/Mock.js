@@ -1,7 +1,4 @@
 import cardImage from './images/imageCard.png';
-import cardImageRotate from './images/imageCardRotate.png';
-
-
 
 export const cards = [{
     id: 1,
