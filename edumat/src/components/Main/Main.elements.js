@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MainWrapper = styled.div`
-margin: 32px 24px;
+margin: 32px 25px 5px;
 `
 export const MainHeader = styled.h1`
 font-weight: 600;

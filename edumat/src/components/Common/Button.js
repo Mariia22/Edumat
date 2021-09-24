@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 
 
 const ButtonStyle = styled.button`
-width: 50%;
+width: 45%;
 cursor: pointer;
 border: none;
 font-weight:600;
@@ -24,12 +24,9 @@ ${props => props.filter && css`
     margin-bottom: 56px;   
 `};
 ${props => props.filterCourse && css`
-      color: ${({ isFilter }) => isFilter ? '#131330' : '#C1C1C1'};
-      
-      
+      color: ${({ isFilter }) => isFilter ? '#131330' : '#C1C1C1'};       
 `}
 `
-
 
 const Button = (props) => {
     return (

@@ -16,7 +16,7 @@ outline: none;
 color: ${props => props.color || props.theme.colors.darkestFontColor};
 }
 ${props => props.search && `
-    background: ${props.theme.colors.fieldColor} url(${SearchIcon}) 200px 16px no-repeat;
+    background: ${props.theme.colors.fieldColor} url(${SearchIcon}) 205px 16px no-repeat;
 `}
 `
 

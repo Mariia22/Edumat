@@ -1,20 +1,34 @@
 import styled from 'styled-components';
 
 export const CardWrapper = styled.div`
-width: 40%;
-margin-bottom: 48px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 47%;
+margin-right: 4px;
+margin-bottom: 45px;
 `
 
 export const CardImage = styled.img`
 width: 93px;
 height: 93px;
-margin-bottom: 24px;
+transform: rotate(${props => props.degree}deg);
+transform: scaleX(${props => props.scaleX});
+transform: scaleY(${props => props.scaleY});
+`
+export const CardDescription = styled.div`
+display:flex;
+height:50%;
+flex-direction: column;
+justify-content: flex-start;
 `
 
 export const CardHeader = styled.h2`
 font-weight:bold;
 font-size: 14px;
 line-height: 16px;
+margin-top:12px;
+margin-right: 8px;
 margin-bottom: 8px;
 color: ${props => props.color || props.theme.colors.headerColor};
 `

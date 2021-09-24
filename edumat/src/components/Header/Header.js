@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { HeaderDiv, HeaderLogo, HeaderIconDiv, HeaderFilter } from './Header.elements';
+import { HeaderDiv, HeaderLogo, HeaderFilter } from './Header.elements';
+import { Flex } from './../Common/Flex';
 import Search from './../../images/Search.png';
 import Logo from './../../images/Logo.png';
 import Notifications from './../../images/Notifications.svg';
@@ -13,11 +14,11 @@ const Header = () => {
         <>
             <HeaderDiv>
                 <HeaderLogo src={Logo} alt='Logo company' />
-                <HeaderIconDiv >
-                    <Icon src={Search} alt='Search icon' width='15px' height='15px' />
-                    <Icon src={Overlap} alt='Overlap icon' marginLeft='22px' marginRight='17px' />
-                    <Icon src={Notifications} alt='Notification icon' />
-                </HeaderIconDiv>
+                <Flex justify='flex-end' align='center' wrap='wrap' >
+                    <Icon src={Search} alt='Search icon' width='18px' height='18px' />
+                    <Icon src={Overlap} alt='Overlap icon' marginLeft='23px' marginRight='18px' />
+                    <Icon src={Notifications} alt='Notification icon' marginRight='3px' />
+                </Flex>
             </HeaderDiv>
             <HeaderFilter>
                 <Button filterCourse isFilter={isFilter}>Summary</Button>

@@ -20,8 +20,8 @@ const Main = () => {
                     </DropdownStyle>
                 </Flex>
                 <Flex justify='flex-start'>
-                    <Button filter='true' isActive={isActive}>Do zrobienia</Button>
-                    <Button filter='true' marginLeft='10px ' marginRight='10px'>W trakcie</Button>
+                    <Button filter='true' isActive={isActive} marginLeft='3px'>Do zrobienia</Button>
+                    <Button filter='true' >W trakcie</Button>
                     <Button filter='true'>Wykonane</Button>
                 </Flex>
             </MainForm>

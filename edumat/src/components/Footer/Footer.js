@@ -12,10 +12,10 @@ const Footer = () => {
     return (
         <FooterWrapper>
             <Flex justify='center'>
-                <Icon src={HomeIcon} alt='Home icon' width='28px' height='28px' marginRight='40px' />
-                <Icon src={CouseIcon} alt='Couse icon' width='28px' height='28px' marginRight='40px' />
-                <Icon src={AddIcon} alt='Add icon' width='28px' height='28px' marginRight='40px' />
-                <Icon src={TestIcon} alt='Test icon' width='28px' height='28px' marginRight='40px' />
+                <Icon src={HomeIcon} alt='Home icon' width='28px' height='28px' marginRight='50px' />
+                <Icon src={CouseIcon} alt='Couse icon' width='28px' height='28px' marginRight='50px' />
+                <Icon src={AddIcon} alt='Add icon' width='28px' height='28px' marginRight='50px' />
+                <Icon src={TestIcon} alt='Test icon' width='28px' height='28px' marginRight='50px' />
                 <Icon src={MenuIcon} alt='Menu icon' width='28px' height='28px' />
             </Flex>
         </FooterWrapper>

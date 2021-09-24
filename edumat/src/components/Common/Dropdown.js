@@ -15,7 +15,7 @@ export const DropdownStyle = styled.select`
   appearance: none;
   background-image: url(${DropdownIcon});
   background-repeat: no-repeat;
-  background-position: right 8px center;
+  background-position: right 10px center;
 `
 
 export const MenuItem = styled.option`
